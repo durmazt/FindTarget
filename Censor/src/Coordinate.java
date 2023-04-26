@@ -12,8 +12,8 @@ public class Coordinate {
 
     public static Coordinate generateRandomCoordinate() {
         Random random = new Random();
-        int x = random.nextInt(501) - 250;
-        int y = random.nextInt(501) - 250;
+        int x = random.nextInt(1001) - 500;
+        int y = random.nextInt(1001) - 500;
         return new Coordinate(x, y);
     }
 
